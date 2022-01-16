@@ -39,11 +39,12 @@ For other providers you may need to set the appropriate keys in `config/services
 To enable email verification make sure that your `App\User` model implements the `Illuminate\Contracts\Auth\MustVerifyEmail` contract.
 <hr />
 
-### Testing
+# Testing
 
+### Run all unit and feature tests
 ```bash
-# Run unit and feature tests
 vendor/bin/phpunit
+```
 
 ## Changelog
 
